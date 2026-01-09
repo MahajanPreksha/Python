@@ -11,7 +11,7 @@ But in case of Python, following process occurs:
 
 Source Code ---> Compiler ---> Byte Code ---> Interpreter ---> Machine Code
 
-# Introduction to Python
+# Introduction to Python ([Python Essentials](1.%20Python%20Essentials))
 Python is one of the most famous programming languages.
 
 It is easy to read, write and understand any Python code. So, it is a beginner-friendly programming language.
@@ -165,24 +165,107 @@ age = int(input("Enter your age: "))
 ## Operators and its Types
 Operators are used to perform some sort of computations using operands.
 
-1. Arithmetic Operators
-| Operator | Name |
-| ---- | ---- |
-| + | Addition |
-| - | Subtraction |
-| * | Multiplication |
-| / | Division |
-| % | Modulus |
-| ** | Exponentiation |
-| // | Floor division |
+1. Arithmetic Operators: They are used for arithmetic operations.
 
-> n1/n2 will return a floating point number while n1//n2 will return the nearest whole number.
+| Operator | Name | Example | Operation |
+| ----- | ----- | ----- | ----- |
+| + | Addition | n1 + n2 | Adds n1 and n2 |
+| - | Subtraction | n1 - n2 | Subtracts n2 from n1 |
+| * | Multiplication | n1 * n2 | Multiplies n1 and n2 |
+| / | Division | n1 / n2 | Divides n1 by n2 (returns a floating point number) |
+| % | Modulus | n1 % n2 | Returns remainder upon dividing n1 by n2 |
+| ** | Exponentiation | n1 ** n2 | Raises n1 to the power of n2 |
+| // | Floor division | n1 // n2 | Returns nearest whole number upon dividing n1 by n2 |
+
+2. Assignment Operators: They are used for assignment operations.
+
+| Operator | Name | Example | Operation |
+| ----- | ----- | ----- | ----- |
+| = | Assignment | n1 = n2 | Assigns value to a variable |
+| += | Addition Assignment | n1 += n2 | Same as n1 = n1 + n2 |
+| -= | Subtraction Assignment | n1 -= n2 | Same as n1 = n1 - n2 |
+| *= | Multiplication Assignment | n1 *= n2 | Same as n1 = n1 * n2 |
+| /= | Division Assignment | x /= n2 | Same as n1 = n1 / n2 |
+| %= | Modulus Assignment | n1 %= n2 | Same as n1 = n1 % n2 |
+| //= | Floor Division Assignment | n1 //= n2 | Same as n1 = n1 // n2 |
+| **= | Exponentiation Assignment | n1 **= n2 | Same as n1 = n1 ** n2 |
+| &= | Bitwise AND Assignment | n1 &= n2 | Same as n1 = n1 & n2 |
+| \|= | Bitwise OR Assignment | n1 \|= n2 | Same as n1 = n1 \| n2 |
+| ^= | Bitwise XOR Assignment | n1 ^= n2 | Same as n1 = n1 ^ n2 |
+| >>= | Right Shift Assignment | n1 >>= n2 | Same as n1 = n1 >> n2 |
+| <<= | Left Shift Assignment | n1 <<= n2 | Same as n1 = n1 << n2 |
 
 
+3. Comparison Operators: They are used to compare two values.
 
+| Operator | Name | Example | Operation |
+| ----- | ----- | ----- | ----- |
+| == | Equal to | n1 == n2 | Returns True if n1 is equal |
+| != | Not Equal to | n1 != n2 | Returns True if n1 is not equal |
+| > | Greater than | n1 > n2 | Returns True if n1 is greater
+| < | Less than | n1 < n2 | Returns True if n1 is smaller |
+| >= | Greater than or Equal to | n1 >= n2 | Returns True if n |
+| <= | Less than or Equal to | n1 <= n2 | Returns True if n1 is smaller or equal |
 
+4. Logical Operators: They work with boolean values.
 
+| Operator | Name | Example | Operation |
+| ----- | ----- | ----- | ----- |
+| and | Logical AND | n1 and n2 | Returns True if both statements are True |
+| or | Logical OR | n1 or n2 | Returns True if one of the statements is True |
+| not | Logical NOT | not n1 | Reverses the result, returns False is the result is True |
 
+5. Identity Operators: They check the identity of the variables.
+
+| Operator | Name | Example | Operation |
+| ----- | ----- | ----- | ----- |
+| is | Identity | n1 is n2 | Returns True if both variables are the same object |
+| is not | Not Identity | n1 is not n2 | Returns True if both variables are not the same object |
+
+6. Membership Operators: They are used to check if a value is a member of a particular sequence.
+
+| Operator | Name | Example | Operation |
+| ----- | ----- | ----- | ----- |
+| in | Membership | item in sequence | Returns True if a sequence with the specified value is present in the object |
+| not in | Not Membership | item not in sequence | Returns True if a sequence with the specified value is not present in the object |
+
+7. Bitwise Operators: They work with bits.
+
+| Operator | Name | Example | Operation |
+| ----- | ----- | ----- | ----- |
+| & | Bitwise AND | n1 & n2 | Sets each bit to 1 |
+| \| | Bitwise OR | n1 \| n2 | Sets each bit to 1 if one of the bits is 1 |
+| ^ | Bitwise XOR | n1 ^ n2 | Sets each bit to 1 |
+| ~ | Bitwise NOT | ~n1 | Inverts all the bits |
+| << | Zero Fill Left Shift | n1 << n2 | Shifts the bits of n1 |
+| >> | Zero Fill Right Shift | n1 >> n2 | Shifts the bits of n1 |
+
+### Operators Precedence
+It is a set of rules that determines the hierarchy of operators in an expression with multiple operators.
+
+| Precedence Level | Operators |
+| ----- | ----- |
+| 1 | () |
+| 2 | ** |
+| 3 | /, %, // |
+| 4 | * |
+| 5 | +, - |
+| 6 | >>, <<>> |
+| 7 | &, /|, ^ |
+| 8 | ==, !=, >, <, >=, <= |
+| 9 | not, and, or |
+
+## Inbuilt Functions
+Inbuilt functions are the functions that are already defined in Python.
+
+1. type(): It is used to find the datatype of a variable.
+
+2. int(): It is used to convert a datatype into an integer.
+
+3. float(): It is used to convert a datatype into a floating number.
+
+4. str(): It is used to convert a datatype into a string.
+---
 
 # Python Collections
 Collections in Python are used to store sequence/collection of items in one variable.

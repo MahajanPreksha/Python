@@ -14,7 +14,7 @@ print(name, age, percentage, is_student) #Output: Preksha 21 90.6 True
 
 #Updating value of percentage
 percentage = 94.0
-print(percentage) #Output: 94
+print(percentage) #Output: 94.0
 
 #Type of variable
 print(type(name)) #Output: <class 'str'>
