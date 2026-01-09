@@ -267,6 +267,27 @@ Inbuilt functions are the functions that are already defined in Python.
 4. str(): It is used to convert a datatype into a string.
 ---
 
+# Control Statements ([Conditionals and Loops](2.%20Conditionals%20and%20Loops/))
+Control statements allow the programmer to control the flow of the program.
+
+## Conditionals
+Conditionals are used to perform different actions based on different conditions.
+
+1. if-else statement
+2. nested
+3. if-else ladder
+4. ternary operator
+5. match
+
+> For multiple conditions, use logical operators 'and' and 'or' with if-elif-else statements.
+
+## Loops
+Loops are used to execute a block of code repeatedly until a certain condition is met.
+
+1. For Loop
+2. While Loop
+---
+
 # Python Collections
 Collections in Python are used to store sequence/collection of items in one variable.
 
