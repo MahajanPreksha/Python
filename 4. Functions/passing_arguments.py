@@ -7,9 +7,10 @@ x = 5
 addOne(x)
 print("Outside function:", x)
 
-''' Output:
+'''Output:
 Inside function: 6
-Outside function: 5 '''
+Outside function: 5
+'''
 
 #Pass by Reference
 def modifyList(lst):
@@ -21,6 +22,7 @@ lst = [1, 2, 3]
 modifyList(lst)
 print("Outside function:", lst)
 
-''' Output:
+'''Output:
 Inside function: [1, 2, 3, 4]
-Outside function: [1, 2, 3, 4] '''
+Outside function: [1, 2, 3, 4]
+'''

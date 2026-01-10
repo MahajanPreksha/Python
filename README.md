@@ -427,7 +427,7 @@ Items of a dictionary are:
 3. clear(): It will remove all items from te=he dictionary.
 ---
 
-# Functions
+# Functions ([4. Functions](4.%20Functions/))
 Functions are blocks of code that perform a specific task.
 
 > Input ---> Function ---> Output
@@ -476,6 +476,7 @@ If any change is made to them inside function, it doesn't affect the original va
 2. Pass by Reference: When mutable objects like: list and dictionaries are passed to a function, a reference to the actual object is passed to the function.
 
 Changes inside the function will affect the original object.
+---
 
 # Recursion
 When a function calls itself to solve a problem which is divided further into sub-problems, it is called as recursion.
