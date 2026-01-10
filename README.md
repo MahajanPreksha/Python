@@ -528,7 +528,7 @@ These are special characters that are used to represent some non-printable/reser
 | \xhh | Hex Value |
 ---
 
-# Object Oriented Programming (OOP)
+# Object Oriented Programming (OOP) ([7. Object Oriented Programming](7.%20Object%20Oriented%20Programming/))
 It is a programming paradigm where the software design resolves around objects and data over functions, unlike Procedure Oriented Programming.
 
 ### Use of OOPs in Python
@@ -655,3 +655,4 @@ To handle it, we use three keywords:
 1. try: it has the code which might throw an exception
 2. except: if exception occurs, it has the code to handle the exception along with its ExceptionType (ValueError, TypeError, ZeroDivisionError, etc.)
 3. finally: it has the code which will be executed regardless of the exception
+---

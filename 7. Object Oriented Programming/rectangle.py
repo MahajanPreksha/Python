@@ -1,6 +1,7 @@
 class Rectangle:
 
-    def __init__(self, l, b): #Constructor
+    #Constructor
+    def __init__(self, l, b):
         print("Constructor has been invoked.")
         self.l = l
         self.b = b
@@ -16,9 +17,20 @@ class Rectangle:
         return 2 * (self.l + self.b)
 
 l = int(input("Enter the length: "))
-b = int(input("Enter the breadth: "))    
+b = int(input("Enter the breadth: "))
+ 
 rectangle = Rectangle(l, b)
 # rectangle.set_dimensions(l, b)
+
 print("Length:", rectangle.l, "and Breadth:", rectangle.b)
 print("Area:", rectangle.area())
 print("Perimeter:", rectangle.perimeter())
+
+'''Output:
+Enter the length: 5
+Enter the breadth: 4
+Constructor has been invoked.
+Length: 5 and Breadth: 4
+Area: 20
+Perimeter: 18
+'''

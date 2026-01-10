@@ -12,7 +12,8 @@ class Child(Parent):
 
 child1 = Child()
 
-''' Output:
+'''Output:
 This is the parent class.
 This is a child class.
-True '''
+True
+'''

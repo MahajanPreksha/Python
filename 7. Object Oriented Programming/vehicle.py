@@ -19,7 +19,12 @@ class Bus(Vehicle):
         return total_fare
     
 vehicle1 = Vehicle(50)
-print("Vehicle Fare:", vehicle1.getFare()) #Output: Vehicle Fare: 5000
+print("Vehicle Fare:", vehicle1.getFare())
 
 bus1 = Bus(50)
-print("Bus Fare:", bus1.getFare()) #Output: Bus Fare: 5500.0
+print("Bus Fare:", bus1.getFare())
+
+'''Output:
+Vehicle Fare: 5000
+Bus Fare: 5500.0
+'''

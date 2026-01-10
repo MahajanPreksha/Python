@@ -1,6 +1,7 @@
 class Animal:
 
-    def speaks(self): #Abstract method which will be overwritten
+    #Abstract method which will be overwritten
+    def speaks(self):
         print("Generic noise")
 
 class Dog(Animal):

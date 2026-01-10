@@ -1,5 +1,6 @@
 #Creating a class
 class Students:
+
     #self is a default parameter and it contains the object that is being passed to the function 
     def __init__(self, name):
         self.name = name
