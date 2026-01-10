@@ -476,9 +476,10 @@ If any change is made to them inside function, it doesn't affect the original va
 2. Pass by Reference: When mutable objects like: list and dictionaries are passed to a function, a reference to the actual object is passed to the function.
 
 Changes inside the function will affect the original object.
+
 ---
 
-# Recursion
+# Recursion ([5. Recursion](5.%20Recursion/))
 When a function calls itself to solve a problem which is divided further into sub-problems, it is called as recursion.
 
 Syntax:
@@ -499,6 +500,8 @@ There are 2 parts of a recursive function:
 In memory, recursion works with the help of call stack.
 
 For every recursive call, a stack frame gets added to the call stack and this keeps on going till you reach the base case.
+
+---
 
 # Strings
 Strings are a sequence of characters enclosed within single, double or triple quotes.
