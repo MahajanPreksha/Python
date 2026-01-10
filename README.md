@@ -288,7 +288,7 @@ Loops are used to execute a block of code repeatedly until a certain condition i
 2. While Loop
 ---
 
-# Python Collections
+# Python Collections ([3. Python Collections](3.%20Python%20Collections/))
 Collections in Python are used to store sequence/collection of items in one variable.
 
 Examples:
@@ -298,13 +298,16 @@ Examples:
 4. Set
 
 ## List
-It allows us to store multiple items in a single variable.
+It allows us to store multiple items in a single variable using square brackets.
 
-Example: fruits = ["apple", "mango", "cherry"]
+Example:
+```python
+fruits = ["apple", "mango", "cherry"]
+```
 
 Items of a list are:
 - Indexed: Indexing starts from 0 to access any item of the list.
-- Ordered: Items are present in the same way as they had been put into the list
+- Ordered: Items are present in the same way as they had been put into the list.
 - Mutable: Items can be updated/modified using indexes.
 - Duplicates allowed: Any item can appear multiple times.
 - Any data type: Different lists can store items of any data type.
@@ -313,13 +316,116 @@ Items of a list are:
 ### Accessing items of a List
 - Indexing: Lists have 0-based indexing.
 - Negative Indexing: Negative indexing begins from -1 in the list.
-- Range of indexes: It is used to access a sublist between starting index (inclusive) and ending index (exclusive).
-- Range of negative indexes
+- Range of indices: It is used to access a sublist between starting index (inclusive) and ending index (exclusive).
+- Range of negative indices: It is used to access a sublist between starting index (inclusive) and ending index (exclusive) but with negative indices.
 
+### Adding elements to a List
+1. append(): It adds an item to the end of the list.
+2. insert(): It adds an item at the specified index.
+3. extend(): It adds multiple items to the end of the list.
 
+### Removing elements from a List
+1. remove(): It removes the first occurrence of the specified item.
+2. pop(): It removes the item at the specified index. If index is not provided, then the last item will be removed.
 
+### Changing items in a List
+1. At an index
+2. In a range
 
+### Sorting a List
+Sorting is used to arrange the items of a list in a specific order.
 
+There are two ways to sort using ```sort()``` method:
+
+1. Ascending (By default)
+2. Descending
+
+### List Comprehension
+It is used to create a new list from an existing list.
+
+## Tuple
+It allows us to store multiple items in a single variable using round brackets.
+
+```python
+colours = ("red", "green", "blue")
+```
+
+Items of a tuple are:
+- Ordered: Items are present in the same way as they had been put into the tuple.
+- Immutable: Items cannot be modified.
+- Duplicates allowed: Any item can appear multiple times.
+- Any datatype: Different tuples can store items of any data type.
+- Mix of different datatypes: Items of a tuple can be heterogenous too.
+
+### Accessing items of a Tuple
+- Indexing: Tuples have 0-based indexing.
+- Negative Indexing: Negative indexing begins from -1 in the tuple.
+- Range of indices: It is used to access a sub-tuple between starting index (inclusive) and ending index (exclusive).
+- Range of negative indices: It is used to access a sub-tuple between starting index (inclusive) and ending index (exclusive) but with negative indices.
+
+### Tuples v/s Lists
+| Property | Tuple | List |
+| ----- | ----- | ----- |
+| Syntax | Enclosed within () | Enclosed within [] |
+| Mutability | Immutable | Mutable |
+| Iteration | Faster | Slower |
+
+> Note: Tuples that contain immutable elements can be used as a key for dictionary.
+
+### Reversing a Tuple
+To iterate through a tuple in a reversed order, we use ```reversed()``` method.
+
+## Set
+It allows us to store multiple items in a single variable using curly braces.
+
+```python
+fruits = {"apple", "banana", "cherry"}
+```
+
+Items of a set are:
+- Unordered: Items are not in any particular order.
+- Immutatable: Items cannot be modified.
+- Unindexed: Indexing doesn't exist for sets.
+- Duplicates not allowed: Any item can appear only once.
+- Any datatype: Different sets can store items of any data type.
+- Mix of different datatypes: Items of a set can be heterogenous too.
+
+### Adding elements to a Set
+1. add(): It is used to add an element to the set.
+2. update(): It is used to add another sequence to the set.
+
+### Removing elements from a Set
+1. remove(): It removes the specified item from the set. If item is not found, it will throw a KeyError.
+2. discard(): It removes the specified item from the set. If item is not found, it will not throw an error.
+
+## Dictionary
+It allows us to store multiple items in a single variable using curly braces in the form of key-value pairs.
+
+```python
+numbers = {'John': 1111, 'Ria': 2222, 'Joy': 3333}
+```
+
+Items of a dictionary are:
+- Ordered: Items are present in the same way as they had been put into the dictionary.
+- Unindexed: Elements cannot be accessed using indices.
+- Changeable: Key-value pairs can be changed.
+- Duplicates not allowed: Keys have to be unique while values need not to be.
+- Any datatype: A key can store values of any data type.
+
+### Accessing items of a Dictionary
+1. Using keys
+2. Using get() method
+3. Using keys() method
+
+### Adding elements to a Dictionary
+1. Using new key
+2. Using update() method
+
+### Removing elements from a Dictionary
+1. pop(): It removes the item with the specified key name.
+2. popitem(): It removes the last inserted key-value pair.
+3. clear(): It will remove all items from te=he dictionary.
+---
 
 # Functions
 Functions are blocks of code that perform a specific task.
