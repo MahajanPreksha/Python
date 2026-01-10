@@ -503,7 +503,7 @@ For every recursive call, a stack frame gets added to the call stack and this ke
 
 ---
 
-# Strings
+# Strings ([6. Strings](6.%20Strings/))
 Strings are a sequence of characters enclosed within single, double or triple quotes.
 
 They are immutable i.e. contents of a string can't be modified. Instead, new strings can be created by manipulating the original string.
@@ -526,6 +526,7 @@ These are special characters that are used to represent some non-printable/reser
 | \f | Form Feed |
 | \ooo | Octal Value |
 | \xhh | Hex Value |
+---
 
 # Object Oriented Programming (OOP)
 It is a programming paradigm where the software design resolves around objects and data over functions, unlike Procedure Oriented Programming.

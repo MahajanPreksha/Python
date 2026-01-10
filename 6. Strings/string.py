@@ -51,7 +51,6 @@ print(str[3:]) #Output: def
 print(str[-3:]) #Output: def
 print(str[-3:-1]) #Output: de
 
-
 #Modifying strings
 #Converting characters to uppercase using upper() function
 str1 = "new york"
@@ -75,8 +74,9 @@ str5 = "Hello world, what a nice world it is!"
 print(str5.replace("world", "earth")) #Output: Hello earth, what a nice earth it is!
 
 #Splitting a string into a list of substrings using split() function
-#Syntax: string.split(sep, maxsplit)
-#By default, sep = " " and maxplit (how many times a string will be splitted at the separation) has no limit
+'''Syntax: string.split(sep, maxsplit)
+By default, sep = " " and maxplit (how many times a string will be splitted at the separation) has no limit.
+'''
 str6 = "apple banana mango"
 print(str6.split()) #Output: ["apple", "banana", "mango"]
 
@@ -86,7 +86,7 @@ print(str7.split(',')) #Output: ['ria', 'pia', 'tia', 'sia']
 #Concatenation in a string
 str8 = "Hello World, "
 str9 = "Great place"
-print(str8+str9) #Output: Hello World, Great place
+print(str8 + str9) #Output: Hello World, Great place
 
 #String formatting to insert variable values in a string using format() function
 studentName = "Preksha"
